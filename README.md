@@ -1,13 +1,12 @@
 # SysTrack Enterprise Automation & Remediation Scripts
 
-**[90% Complete]** - Production-ready PowerShell automation for SysTrack/Lakeside Software. 168 scripts, full module framework, complete documentation. Deploy and automate in under 10 minutes!
+PowerShell automation for SysTrack/Lakeside Software. 168 scripts, full module framework, complete documentation. Deploy and automate in under 10 minutes.
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.0+-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://docs.microsoft.com/powershell/)
 [![SysTrack](https://img.shields.io/badge/SysTrack-10.0+-00A4EF?style=flat-square)](https://www.lakesidesoftware.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-90%25_Complete-brightgreen?style=flat-square)](#project-status)
 [![Scripts](https://img.shields.io/badge/Scripts-168-blue?style=flat-square)](#available-scripts)
-[![Stars](https://img.shields.io/github/stars/wesellis/TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts?style=flat-square)](https://github.com/wesellis/TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts/stargazers)
+[![Stars](https://img.shields.io/github/stars/wesellis/systrack-automation?style=flat-square)](https://github.com/wesellis/systrack-automation/stargazers)
 
 ---
 
@@ -54,7 +53,7 @@ IT teams spend hours manually fixing repetitive system issues detected by SysTra
 
 ```powershell
 # 1. Clone Repository
-git clone https://github.com/wesellis/TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts.git
+git clone https://github.com/wesellis/systrack-automation.git
 cd TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts
 
 # 2. Import Module
@@ -411,7 +410,7 @@ Total: 168 PowerShell scripts across all directories
 ### Option 1: Quick Test (5 minutes)
 ```powershell
 # Clone and run a single remediation script
-git clone https://github.com/wesellis/TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts.git
+git clone https://github.com/wesellis/systrack-automation.git
 cd TECH-SysTrack-Lakeside-Enterprise-Automation-Remediation-Scripts
 .\scripts\completed\Fix-HighCPUUsage.ps1 -Threshold 90
 ```
